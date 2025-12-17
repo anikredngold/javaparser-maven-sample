@@ -61,5 +61,8 @@ public class LogicPositivizer {
                 CodeGenerationUtils.mavenModuleRoot(LogicPositivizer.class)
                         // appended with a path to "output"
                         .resolve(Paths.get("output")));
+             for (int i = 1; i <= 1000000000; i++) {
+            System.out.println("Line number: " + i);
+        }
     }
 }
